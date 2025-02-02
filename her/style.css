@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Coolvetica;
+  src: url(fonts/coolvetica\ rg.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(248, 220, 212);
+}
+
+.love h2 {
+  font-size: 50px;
+  font-family: "Coolvetica";
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-top: 25%;
+  margin-bottom: 10px;
+}
+
+.love span {
+  color: crimson;
+}
+
+.love a {
+  text-decoration: none;
+
+  padding: 5px;
+  margin: 5px 10px;
+  font-family: "Coolvetica";
+  font-size: 25px;
+}
+
+#no {
+  color: rgb(39, 39, 39);
+}
+#yes {
+  color: rgb(255, 255, 255);
+}
+
+/* YES ANSWER */
+
+.yes h2 {
+  font-size: 50px;
+  font-family: "Coolvetica";
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-top: 25%;
+  margin-bottom: 10px;
+}
+
+img {
+  height: 30px;
+  width: 30px;
+  animation: heart 4s linear infinite;
+}
+
+/* NO ANSWER */
+
+.no h2 {
+  font-size: 50px;
+  font-family: "Coolvetica";
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  padding-top: 25%;
+  margin-bottom: 10px;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
